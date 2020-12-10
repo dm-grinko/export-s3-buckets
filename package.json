@@ -1,0 +1,19 @@
+{
+  "name": "export-s3-buckets",
+  "version": "1.0.0",
+  "description": "Export S3 buckets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "json",
+    "s3"
+  ],
+  "author": "Dmitry Grinko",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.807.0",
+    "dotenv": "^8.2.0"
+  }
+}
